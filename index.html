@@ -5,64 +5,225 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  About
-  Services
-  Projects
-  Contact
+  <main class="container">
 
+    <!-- header -->
+    <header class = "header">
+<nav>
+  <!-- navigation -->
+
+<div class="logo">
+  <img src="images\logo.svg" alt="">
+</div>
+<ul class="nav-links">
+  <li class="links"> About</li>
+  <li class="links">Services</li>
+  <li class="links">  Projects</li>
+  <li class="links"> Contact<li>
+  </ul>
+
+</nav>
+
+<div class="header-text">
+
+<h1 class="main-head">
   We are creatives
+</h1>
 
-  Transform your brand
+</div>
 
-  We are a full-service creative agency specializing in helping brands grow fast. 
-  Engage your clients through compelling visuals that do most of the marketing for you.
+<div class="scroll">
+  <svg width="36" height="114" xmlns="http://www.w3.org/2000/svg"><g stroke="#FFF" stroke-width="6" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3v100M3 95.484l15 15 15-15"/></g></svg>
+</div>
 
-  Learn more
+    </header>
+    
+    <!-- sections -->
 
-  Stand out to the right audience
+    <section class="sec-1">
+      <article class ="part-1">
+       <h1 class="sect-heading"> Transform your brand</h1>
+       <p class="sect-para">
+        We are a full-service creative agency specializing in helping brands grow fast. 
+        Engage your clients through compelling visuals that do most of the marketing for you.
+       </p>
 
-  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+       <a href="
+       " class="sect-link">
+       Learn more
+      </a>
+      </article>
+      <article class="part-2">
+        <picture>
+          <source media="(min-width:750px)" srcset="images\desktop\image-transform.jpg">
+          <source media="(max-width:750px)" srcset="images\mobile\image-transform.jpg">
+          <img src="images\desktop\image-transform.jpg" alt="section-images" style="width:auto;">
+        </picture>
 
-  Learn more
+      </article>
+    </section>
 
-  Graphic design
-  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
 
-  Photography
-  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+    <section class="sec-2">
+       <article class ="part-1">
+        <picture>
+          <source media="(min-width:750px)" srcset="images\mobile\image-stand-out.jpg">
+          <source media="(max-width:750px)" srcset="images\mobile\image-stand-out.jpg">
+          <img src="images\desktop\image-photography.jpg" alt="section-images" style="width:auto;">
+        </picture>
 
-  Client testimonials
+       </article>
 
-  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+      <article class="part-2">
+   <h1 class="sect-heading">  Stand out to the right audience</h1>
+       <p class="sect-para">
+        
+  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.
+       </p>
+
+       <a href="
+       " class="sect-link">
+       Learn more
+      </a>
+      </article>
+    </section>
+
+
+    <section class="sec-3">
+       <article class ="part-1">
+         <h2 class="sec-head">
+          Graphic design
+         </h2>
+         <p class="sec-para">
+
+          Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+         </p>
+       </article>
+
+      <article class="part-2">
+   <h2 class="sec-head">
+    Photography
+         </h2>
+         <p class="sec-para">
+          Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+          
+         </p>
+      </article>
+    </section>
+
+    <section class="sec-4"> 
+      <article class = "part-1">
+        <h3 class="testimonial">
+          Client testimonials
+        </h3>
+
+    </article>
+  
+    <article class = "part-2">
+      
+<div class="testomonial-content">
+
+<img src="images\image-emily.jpg" alt="" class="testmonial-img">
+<p class="testmonial-para"> We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+<p class="author">
   Emily R.
+</p>
+<p class="author-link">
   Marketing Director
-
+</p>
+</div>
+<div class="testomonial-content"><img src="images\image-jennie.jpg" alt="" class="testmonial-img">
+<p class="testmonial-para">
+  
   Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+</p>
+<p class="author">
   Thomas S.
+</p>
+<p class="author-link">
   Chief Operating Officer
+</p>
+</div>
 
-  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+<div class="testomonial-content">
+  <img src="images\image-thomas.jpg" alt="" class="testmonial-img">
+<p class="testmonial-para"> Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+<p class="author">
   Jennie F.
+</p>
+<p class="author-link">
   Business Owner
+</p>
+</div>
 
-  About
-  Services
-  Projects
-  Contact
+  </article>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    </section>
+    
+    <section class="sec-5">
+       <article class ="part-1">
+
+      <div class="image-group">
+   <picture>
+          <source media="(min-width:750px)" srcset="images\desktop\image-gallery-milkbottles.jpg">
+          <source media="(max-width:750px)" srcset="images\mobile\image-gallery-milkbottles.jpg">
+          <img src="images\desktop\image-gallery-milkbottles.jpg" alt="section-images" style="width:auto;">
+        </picture>
+      </div>
+
+
+      <div class="image-group">
+        <picture>
+          <source media="(min-width:750px)" srcset="images\desktop\image-gallery-orange.jpg">
+          <source media="(max-width:750px)" srcset="images\mobile\image-gallery-orange.jpg">
+          <img src="images\desktop\image-gallery-orange.jpg" alt="section-images" style="width:auto;">
+        </picture>
+      </div>
+
+
+      <div class="image-group">
+        <picture>
+          <source media="(min-width:750px)" srcset="images\desktop\image-gallery-cone.jpg">
+          <source media="(max-width:750px)" srcset="images\mobile\image-gallery-cone.jpg">
+          <img src="images\desktop\image-photography.jpg" alt="section-images" style="width:auto;">
+        </picture>
+      </div>
+
+
+      <div class="image-group">
+        <picture>
+          <source media="(min-width:750px)" srcset="images\desktop\image-gallery-sugarcubes.jpg">
+          <source media="(max-width:750px)" srcset="images\mobile\image-gallery-sugar-cubes.jpg">
+          <img src="images\desktop\image-gallery-sugar-cubes.jpg" alt="section-images" style="width:auto;">
+        </picture>
+      </div>
+
+    </section>
+
+    <footer>
+      <div class="footer-part">
+        <h1 class="logo-footer">
+
+        </h1>
+      </div>
+      <div class="footer-part">
+<ul class="footer-link">
+  <li class="footer-links">  About</li>
+  <li class="footer-links">  Services</li>
+  <li class="footer-links"> Projects</li>
+</ul>
+      </div>
+      <div class="footer-part">
+
+      </div>
+    </footer>
+
+  </main>
 </body>
 </html>
