@@ -1,0 +1,41 @@
+
+::after,
+::before,
+body{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+$marginslist:(1,2,3,4,5);
+
+@each $margin in $marginslist{
+    .m-#{$margin}{
+margin: $margin + rem;
+    }
+    .m-all-#{$margin}{
+        margin:$margin + rem auto;
+    }
+    .p-#{$margin}{
+        padding:$margin + rem;
+    }
+    .p-all-#{$margin}{
+        padding: $margin + rem auto;
+    }
+}
+@mixin flex {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+@mixin grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+}
+
+@mixin slider {
+    grid-template-columns: repeat(4,1fr);
+    display:grid;
+}

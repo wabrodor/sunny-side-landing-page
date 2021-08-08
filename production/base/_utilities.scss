@@ -1,0 +1,23 @@
+%btn{
+    padding:10px 20px;
+    border-radius:20px;
+color: var(--Very-grey-blue);
+background-color:var(--White);
+ cursor: pointer;
+}
+img:not(.logo){
+    max-width:100%;
+    height:auto;
+    display:block;
+}
+
+.btn-nav{
+    @extend %btn;
+    color:var(--Very-grey-blue) !important;
+    opacity:0.9;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.header-text{
+    @include flex;
+}

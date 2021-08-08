@@ -18,19 +18,21 @@
 <nav>
   <!-- navigation -->
 
-<div class="logo">
+<div class="logo p-2">
   <img src="images\logo.svg" alt="">
 </div>
-<ul class="nav-links">
-  <li class="links"> About</li>
+<ul class="nav-links p-2">
+  <li class="links">About</li>
   <li class="links">Services</li>
-  <li class="links">  Projects</li>
-  <li class="links"> Contact<li>
+  <li class="links">Projects</li>
+  <li class="links btn-nav">Contact</li>
   </ul>
-
+<div class="toggle">
+  <img src="images\icon-hamburger.svg" alt="" >
+</div>
 </nav>
 
-<div class="header-text">
+<div class="header-text m-1">
 
 <h1 class="main-head">
   We are creatives
@@ -46,7 +48,7 @@
     
     <!-- sections -->
 
-    <section class="sec-1">
+    <section class="sec-1 " >
       <article class ="part-1">
        <h1 class="sect-heading"> Transform your brand</h1>
        <p class="sect-para">
@@ -61,9 +63,9 @@
       </article>
       <article class="part-2">
         <picture>
-          <source media="(min-width:750px)" srcset="images\desktop\image-transform.jpg">
-          <source media="(max-width:750px)" srcset="images\mobile\image-transform.jpg">
-          <img src="images\desktop\image-transform.jpg" alt="section-images" style="width:auto;">
+          <source media= "(min-width:900px)" srcset="images\desktop\image-transform.jpg">
+          <source media= "(min-width:300px)" srcset="images\mobile\image-transform.jpg">
+          <img src="images\desktop\image-transform.jpg" alt="section-images" style="width:auto">
         </picture>
 
       </article>
@@ -73,14 +75,14 @@
     <section class="sec-2">
        <article class ="part-1">
         <picture>
-          <source media="(min-width:750px)" srcset="images\mobile\image-stand-out.jpg">
-          <source media="(max-width:750px)" srcset="images\mobile\image-stand-out.jpg">
+          <source media="(min-width:700px)" srcset="images\desktop\image-stand-out.jpg">
+          <source media="(max-width:700px)" srcset="images\mobile\image-stand-out.jpg">
           <img src="images\desktop\image-photography.jpg" alt="section-images" style="width:auto;">
         </picture>
 
        </article>
 
-      <article class="part-2">
+      <article class="part-2 p-5">
    <h1 class="sect-heading">  Stand out to the right audience</h1>
        <p class="sect-para">
         
@@ -117,7 +119,7 @@
       </article>
     </section>
 
-    <section class="sec-4"> 
+    <section class="sec-4 m-all-3"> 
       <article class = "part-1">
         <h3 class="testimonial">
           Client testimonials
@@ -125,12 +127,12 @@
 
     </article>
   
-    <article class = "part-2">
+    <article class = "part-2 testmonial-grid p-5">
       
-<div class="testomonial-content">
+<div class="testmonial-content">
 
 <img src="images\image-emily.jpg" alt="" class="testmonial-img">
-<p class="testmonial-para"> We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+<p class="testmonial-para m-3"> We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
 <p class="author">
   Emily R.
 </p>
@@ -138,8 +140,8 @@
   Marketing Director
 </p>
 </div>
-<div class="testomonial-content"><img src="images\image-jennie.jpg" alt="" class="testmonial-img">
-<p class="testmonial-para">
+<div class="testmonial-content"><img src="images\image-jennie.jpg" alt="" class="testmonial-img">
+<p class="testmonial-para  m-3">
   
   Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
 </p>
@@ -151,9 +153,9 @@
 </p>
 </div>
 
-<div class="testomonial-content">
+<div class="testmonial-content">
   <img src="images\image-thomas.jpg" alt="" class="testmonial-img">
-<p class="testmonial-para"> Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+<p class="testmonial-para m-3"> Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
 <p class="author">
   Jennie F.
 </p>
@@ -166,8 +168,8 @@
 
     </section>
     
-    <section class="sec-5">
-       <article class ="part-1">
+    <section class= "sec-5">
+    
 
       <div class="image-group">
    <picture>
@@ -206,21 +208,24 @@
 
     </section>
 
-    <footer>
-      <div class="footer-part">
+    <footer class = "p-3">
+      <div class="footer-part p-1">
         <h1 class="logo-footer">
-
+        sunnyside
         </h1>
       </div>
-      <div class="footer-part">
+      <div class="footer-part p-2">
 <ul class="footer-link">
   <li class="footer-links">  About</li>
   <li class="footer-links">  Services</li>
   <li class="footer-links"> Projects</li>
 </ul>
       </div>
-      <div class="footer-part">
-
+      <div class="footer-social p-1">
+<img  class ="footer-icon"  src="images\icon-facebook.svg" alt="" >
+<img  class ="footer-icon" src="images\icon-instagram.svg" alt="">
+<img class ="footer-icon"  src="images\icon-twitter.svg" alt="">
+<img class ="footer-icon"  src="images\icon-pinterest.svg" alt="">
       </div>
     </footer>
 
