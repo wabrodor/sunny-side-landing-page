@@ -9,7 +9,9 @@
         .part-1{
             padding: 2rem 5rem;
             .sect-heading{
-                font-size:1.4rem;
+                font-size:1.5rem;
+                text-align: start-;
+            
             }
             .sect-para{
                 font-size:0.9rem;
@@ -90,7 +92,9 @@
     grid-template-columns:1fr;
 .part-2{
     padding:2rem;
-
+img{
+    height:auto;
+}
       
    .sect-heading{
             font-size:2rem;
@@ -138,6 +142,7 @@
         grid-template-columns: 1fr;
         margin:0;
         padding:2rem;
+        gap: 100px;
     }
 }
 .sec-5{
@@ -152,9 +157,13 @@ footer{
         align-items: center;
         list-style: none;
         justify-content: space-around;
+        padding:2rem;
         .footer-links{
-            margin:0 0.8rem;
+
             font-size: 1rem;
+        }
+        .footer-social{
+        justify-content: space-around;
         }
     }
     

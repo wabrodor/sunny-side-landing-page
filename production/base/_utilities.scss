@@ -17,6 +17,13 @@ img:not(.logo){
     opacity:0.9;
     font-weight: 500;
     text-transform: uppercase;
+    font-size:1rem;
+
+    &:hover{
+
+   background-color:hsla(0, 0%, 100%, 0.329);
+   color:var(--White) !important;
+    }
 }
 .header-text{
     @include flex;
