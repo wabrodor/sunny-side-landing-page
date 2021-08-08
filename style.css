@@ -261,7 +261,7 @@ img:not(.logo) {
 }
 
 .sec-1 .part-2 img {
-  min-height: 100%;
+  height: auto;
   max-width: 100%;
 }
 
