@@ -56,6 +56,8 @@
 // mobile 
 
 @media screen and (max-width:700px){
+    
+ 
 .header{
     background-image: url("images/mobile/image-header.jpg");
     nav{
@@ -64,10 +66,8 @@
             margin-right:1rem;
         }
         .nav-links{
-       position:absolute;
-       left:200%;
-       transition: left 400ms ease-in;
-       opacity:0;
+       transition: all 400ms ease-in;
+       display:none;
         }
         .active{
             display:flex;
@@ -88,7 +88,7 @@
            .links{
             color:var(--Very-dark-grayish-blue);
             font-weight: 500;
-               font-size: 1.4rem;
+            font-size: 1.4rem;
              
            }
            .btn-nav{

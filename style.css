@@ -514,10 +514,8 @@ footer .footer-social .footer-icon {
     margin-right: 1rem;
   }
   .header nav .nav-links {
-    position: absolute;
-    left: 200%;
-    transition: left 400ms ease-in;
-    opacity: 0;
+    transition: all 400ms ease-in;
+    display: none;
   }
   .header nav .active {
     display: flex;
